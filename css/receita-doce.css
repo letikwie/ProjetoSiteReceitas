@@ -1,1 +1,86 @@
-/*# sourceMappingURL=receita-doce.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+.secao.receita-doce {
+  display: block;
+}
+
+.receita-e-sugestoes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.receita-principal {
+  flex: 3;
+  min-width: 300px;
+}
+.receita-principal img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+.receita-principal h2 {
+  font-size: 2.2rem;
+  color: #d96643;
+}
+.receita-principal .descricao {
+  font-style: italic;
+  color: #666;
+  margin-bottom: 30px;
+}
+.receita-principal h3 {
+  font-size: 1.6rem;
+  border-bottom: 2px solid #d96643;
+  padding-bottom: 5px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.receita-principal ul, .receita-principal ol {
+  padding-left: 25px;
+}
+
+.sugestoes {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  min-width: 250px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  align-self: flex-start;
+}
+.sugestoes h4 {
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+  color: #d96643;
+}
+.sugestoes .card-sugestao {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eee;
+}
+.sugestoes .card-sugestao:last-child {
+  border-bottom: none;
+}
+.sugestoes .card-sugestao img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.sugestoes .dicas-card {
+  background-color: #fdfaf7;
+  border-left: 4px solid #d96643;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 0 8px 8px 0;
+}
+.sugestoes .dicas-card h5 {
+  font-size: 1.1rem;
+  font-weight: 700;
+}/*# sourceMappingURL=receita-doce.css.map */

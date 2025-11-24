@@ -2,3 +2,23 @@
 @import 'partials/base';
 @import 'partials/layout';
 @import 'partials/components';
+@import 'partials/home';
+@import 'partials/receitas';
+@import 'partials/galeria';
+
+.secao {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+
+    &.ativa {
+        display: block;
+        opacity: 1; //
+        animation: surgir 0.5s forwards;
+    }
+}
+
+@keyframes surgir {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}

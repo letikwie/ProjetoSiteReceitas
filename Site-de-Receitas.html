@@ -7,19 +7,22 @@
 <link rel="stylesheet" href="css/controles.css">
 <title>Nossas Delícias Caseiras</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<link rel="stylesheet" href="css/home-delicias.css"> 
+    <link rel="stylesheet" href="css/galeria.css">
+    <link rel="stylesheet" href="css/controles.css">
 </head>
 <body>
 
 <nav class="toolbar">
-<button type="button" class="btn btn-secondary btn-personalizado">Nossas Delícias</button>
-<button type="button" class="btn btn-secondary btn-personalizado">Receita Salgada do Dia</button>
-<button type="button" class="btn btn-secondary btn-personalizado">Receita Doce do Dia</button>
-<button type="button" class="btn btn-secondary btn-personalizado">Galeria de Fotos</button>
+    <button type="button" class="btn btn-personalizado ativo" data-alvo="home">Nossas Delícias</button>
+    <button type="button" class="btn btn-personalizado" data-alvo="salgada">Receita Salgada do Dia</button>
+    <button type="button" class="btn btn-personalizado" data-alvo="doce">Receita Doce do Dia</button>
+    <button type="button" class="btn btn-personalizado" data-alvo="galeria">Galeria de Fotos</button>
 </nav>
 
 <main class="conteudo">
 
-<section class="secao home-delicias">
+<section id="home" class="secao home-delicias">
 <h1>Nossas Delícias Caseiras</h1>
 <p>Feitos com carinho e os melhores ingredientes. Conheça nossos produtos!</p>
 <div class="grade-produtos">
@@ -50,7 +53,7 @@
 </section>
 
 
-<section class="secao receita-salgada">
+<section id="salgada" class="secao receita-salgada">
 <div class="receita-e-sugestoes">
     <article class="receita-principal">
     <img src="img/pizza.jpg" alt="Mini pizza com diversos recheios.">
@@ -92,7 +95,7 @@
 </section>
 
 
-<section class="secao receita-doce">
+<section id="doce" class="secao receita-doce">
 <div class="receita-e-sugestoes">
     <article class="receita-principal">
     <img src="img/goiabinha.jpg" alt="Biscoito doce em formato de pastel, coberto com açúcar.">
@@ -135,7 +138,7 @@
 </section>
 
 
-<section class="secao galeria">
+<section id="galeria" class="secao galeria">
 <div class="grid-galeria">
     <figure class="foto">
         <img src="img/cachorrinho.jpg" alt="Salgado em formato de enroladinho, conhecido como cachorrinho.">

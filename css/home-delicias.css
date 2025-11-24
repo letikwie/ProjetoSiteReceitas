@@ -49,17 +49,4 @@
 .produto-card p {
   font-size: 0.95rem;
   padding: 0 15px;
-}
-.btn-personalizado {
-    background-color: #d96643 !important; 
-    color: #ffffff !important; 
-    border-color: #d96643 !important;
-}
-btn-personalizado:hover {
-    background-color: #b95739 !important; 
-    border-color: #b95739 !important;
-}
-.btn-personalizado:active {
-    background-color: #b9573973 !important;
-    border-color: #b9573973 !important;
 }/*# sourceMappingURL=home-delicias.css.map */

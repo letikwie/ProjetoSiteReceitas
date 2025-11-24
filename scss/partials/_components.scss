@@ -17,5 +17,6 @@
     &.ativo {
         background-color: $cor-principal;
         color: $cor-branco;
+        pointer-events: none;
     }
 }
